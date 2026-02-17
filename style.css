@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+h1 {
+  color: #667eea;
+  text-align: center;
+  margin-bottom: 30px;
+}
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: Arial;
+  resize: vertical;
+  min-height: 100px;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+button:hover {
+  background: #5568d3;
+}
+#notesList {
+  margin-top: 30px;
+}
+.note-item {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.note-text {
+  flex: 1;
+  margin-right: 15px;
+  word-break: break-word;
+}
+.delete-btn {
+  padding: 8px 15px;
+  background: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  width: auto;
+  margin: 0;
+}
+.delete-btn:hover {
+  background: #ff1744;
+}
+.empty-state {
+  text-align: center;
+  color: #999;
+  padding: 40px;
+}
